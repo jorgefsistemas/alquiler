@@ -15,7 +15,7 @@ class IndexController extends Controller
        public function index()
     {
         //dd("hola");
-        // return view('web.admin.index');
+         return view('web.admin.index');
         return view('dashboard');
 
 
