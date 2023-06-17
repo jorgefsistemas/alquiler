@@ -28,6 +28,10 @@ Route::get('Panel-Administrativo', [IndexController::class, 'index'])->name('das
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/mesas', function () {
+    return view('alquiler.mesas.index');
+    // return view('jorge');
+})->name('mesas');
 
 // Route::middleware([
 //     'auth:sanctum',
