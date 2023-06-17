@@ -17,23 +17,24 @@ use App\Http\Controllers\admin\IndexController;
 */
 
 
-Route::group(['prefix'=> 'admin'],function(){
+// Route::group(['prefix'=> 'admin'],function(){
 
-Route::get('Panel-Administrativo', [IndexController::class, 'index'])->name('dashboard');
+// Route::get('Panel-Administrativo', [IndexController::class, 'index'])->name('dashboard');
+Route::get('dashboard', [IndexController::class, 'index'])->name('dashboard');
 
-});
+// });
 
 
 Route::get('/', function () {
     return view('welcome');
 });
 
-Route::middleware([
-    'auth:sanctum',
-    config('jetstream.auth_session'),
-    'verified'
-])->group(function () {
-    Route::get('/dashboard', function () {
-        return view('dashboard');
-    })->name('dashboard');
-});
+// Route::middleware([
+//     'auth:sanctum',
+//     config('jetstream.auth_session'),
+//     'verified'
+// ])->group(function () {
+//     Route::get('/dashboard', function () {
+//         return view('dashboard');
+//     })->name('dashboard');
+// });
