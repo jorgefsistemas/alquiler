@@ -7,16 +7,15 @@ use Illuminate\Http\Request;
 
 class IndexController extends Controller
 {
-    //
-    // public function __construct()
-    // {
-    //     $this->middleware(['auth']);
-    // }
+
+    public function __construct()
+    {
+        $this->middleware(['auth']);
+    }
        public function index()
     {
-        //dd("hola");
          return view('web.admin.index');
-        return view('dashboard');
+        // return view('dashboard');
 
 
     }
