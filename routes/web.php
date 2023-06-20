@@ -33,6 +33,10 @@ Route::get('/mesas', function () {
     // return view('jorge');
 })->name('mesas');
 
+Route::get('/form', function () {
+    return view('form');
+});
+
 // Route::middleware([
 //     'auth:sanctum',
 //     config('jetstream.auth_session'),
