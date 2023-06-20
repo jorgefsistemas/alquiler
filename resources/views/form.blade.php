@@ -11,7 +11,7 @@
 
     <div class="card">
       <div class="card-header">
-        Laravel Livewire Example - ItSolutionStuff.com
+        Encuesta
       </div>
       <div class="card-body">
         @livewire('contact-form')
