@@ -1,3 +1,4 @@
+@extends('adminlte::page')
 <form wire:submit.prevent="submit">
     <div class="form-group">
         <label for="exampleInputName">Name</label>
