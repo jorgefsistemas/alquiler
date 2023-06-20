@@ -48,7 +48,7 @@
                                     </svg>
                                 </div>
 
-                                <h2 class="mt-6 text-xl font-semibold text-gray-900">Mesas</h2>
+                                <h2 class="mt-6 text-xl font-semibold text-gray-900">Mesas 1</h2>
 
                                 <p class="mt-4 text-gray-500 text-sm leading-relaxed">
                                     Descripción de mesas y arreglos para eventos sociales.
